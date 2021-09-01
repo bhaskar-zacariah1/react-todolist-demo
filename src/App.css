@@ -1,0 +1,70 @@
+body {
+  background-color: #9266aa;
+}
+.App {
+  background-color: #3f3188;
+  min-height: 500px;
+  width: 400px;
+  margin: 50px auto;
+  padding: 10px;
+}
+#form input {
+  background-color: #926622;
+  border: 0;
+  width: 200px;
+  height: 60px;
+  padding: 0 20px;
+  margin: 20px;
+  border-radius: 15px;
+  font-size: 18px;
+  color: white;
+}
+#form input::placeholder {
+  color: orange;
+}
+#form input:focus,
+#form button:focus {
+  outline: none;
+}
+#form button {
+  height: 60px;
+  width: 90px;
+  border-radius: 10px;
+  background-color: #c5a60d;
+  color: rgb(71, 53, 20);
+  font-size: 18px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.list {
+  color: white;
+  width: 300px;
+  background-color: rgb(177, 109, 241);
+  height: 50px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.list p {
+  padding: 15px;
+  position: relative;
+}
+.list p span {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+}
+.icons {
+  margin: 0 5px;
+  font-size: 20px;
+}
+.list p input {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-size: 18px;
+}
+.list p input:focus {
+  outline: none;
+}
